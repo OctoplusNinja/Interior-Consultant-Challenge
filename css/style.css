@@ -292,3 +292,7 @@ footer a:hover{
 .close-icon{
     margin-top: 32px;
 }
+
+.D-scroll{
+    overflow-y: hidden;
+}
