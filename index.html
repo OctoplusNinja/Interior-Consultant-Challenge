@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/queries.css">
+  <script src="./js/script.js"></script>
+</head>
+
+<body>
+  <nav class="nav">
+    <a id="logo" href="">This Interior</a>
+    <div class="nav-right">
+      <a class="active" href="">Home</a>
+      <a href="">Collection</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+    </div>
+    <div class="menu-icon"><span onclick="openNav()">≡</span></div>
+  </nav>
+  <nav class="overlay">
+    <div class="close-icon"><span onclick="closeNav()">&#10006;</span></div>
+    <div class="overlay-content">
+      <ul><a class="active" href="">Home</a></ul>
+      <ul><a href="">Collection</a></ul>
+      <ul><a href="">About</a></ul>
+      <ul><a href="">Contact</a></ul>
+    </div>
+  </nav>
+
+  <div class="main group">
+    <div class="main-left col span_1_of_3">
+      <h1>Modern interior</h1>
+      <p>
+        A full-Service residential & commercial interior design and staging company offering professional organizing &
+        eco-services.
+      </p>
+      <div class="more">
+        <a href="">
+          Read More <span class="rarr">&rarr;</span>
+        </a>
+      </div>
+    </div>
+    <div class="col span_2_of_3">
+      <div class="img-container">
+        <img src="./assets/photo1.png" alt="">
+        <div class="profile-container">
+          <div class="heading group">
+            <div class="pfp col span_1_of_4">
+              <img src="./assets/photo2.png" alt="">
+            </div>
+            <div class="profile-name col span_3_of_4">
+              <h3>Aliza Webber</h3>
+              <p>Interior designer</p>
+            </div>
+          </div>
+          <div class="profile-desc">
+            <p>Designed in 2020 by Aliza Webber</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    created by <a href="https://devchallenges.io/portfolio/OctoplusNinja" target="_blank">@OctoplusNinja</a> -
+    devChallenges.io
+  </footer>
+</body>
+
+</html>
