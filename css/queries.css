@@ -57,6 +57,11 @@
     .more{
         margin-top: 26px;
     }
+    .profile-container{
+        width: 75%;
+        right: 25px;
+        bottom: -125px;
+    }
     .profile-name h1{
         font-size: 12px;
     }
@@ -65,5 +70,6 @@
     }
     .profile-desc p{
         margin-bottom: 25px;
+        width: 80%;
     }
 }

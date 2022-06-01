@@ -262,6 +262,7 @@ footer a:hover{
     text-align: center;
     padding-bottom: 18px;
     position: relative;
+    padding-left: 0;
 }
 
 .overlay-content ul a{
