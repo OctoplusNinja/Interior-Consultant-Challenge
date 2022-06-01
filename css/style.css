@@ -14,7 +14,7 @@ html, body{
 
 .nav{
     padding-top: 32px;
-    height: 42px;
+    height: 45px;
     position: sticky;
     top: 0;
     background-color: #181719;
@@ -121,6 +121,10 @@ a{
     margin-left: 77px;
     padding-right: 50px;
     margin-bottom: 200px;
+}
+
+.main-left{
+    margin-top: 75px;
 }
 
 .main-left h1{
